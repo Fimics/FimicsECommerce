@@ -8,13 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="pojo" />
         <module name="mapper" />
-        <module name="xmybatis-generator" />
         <module name="api" />
         <module name="common" />
         <module name="service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="xmybatis-generator" target="8" />
       <module name="xmybits-generator" target="8" />
     </bytecodeTargetLevel>
   </component>
