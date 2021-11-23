@@ -1,3 +1,4 @@
-/Users/li/code/java/FimicsECommerce/EcomServer/api/src/main/java/com/mic/api/ApiApplication.java
-/Users/li/code/java/FimicsECommerce/EcomServer/api/src/main/java/com/mic/api/HelloController.java
-/Users/li/code/java/FimicsECommerce/EcomServer/api/src/main/java/com/mic/api/foo/StuFooController.java
+/Users/li/code/java/FimicsECommerce/EcomServer/api/src/main/java/com/mic/controller/PassportController.java
+/Users/li/code/java/FimicsECommerce/EcomServer/api/src/main/java/com/mic/ApiApplication.java
+/Users/li/code/java/FimicsECommerce/EcomServer/api/src/main/java/com/mic/foo/HelloController.java
+/Users/li/code/java/FimicsECommerce/EcomServer/api/src/main/java/com/mic/foo/StuFooController.java
