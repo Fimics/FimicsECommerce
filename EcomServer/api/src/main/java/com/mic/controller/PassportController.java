@@ -4,11 +4,13 @@ import bo.UserBO;
 import com.mic.pojo.Users;
 import com.mic.service.UserService;
 import com.mic.utils.FimJSONResult;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+@Api(value = "注册登录", tags = {"用于注册登录的相关接口"})
 @RestController
 @RequestMapping("passport")
 public class PassportController {
@@ -16,6 +18,7 @@ public class PassportController {
     @Autowired
     private UserService userService;
 
+    @ApiOperation(value = "用户名是否存在", notes = "用户名是否存在", httpMethod = "GET")
     @GetMapping("/userIsExist")
     public FimJSONResult userIsExist(@RequestParam String username) {
 
@@ -34,7 +37,7 @@ public class PassportController {
         return FimJSONResult.ok();
     }
 
-//    @ApiOperation(value = "用户注册", notes = "用户注册", httpMethod = "POST")
+    @ApiOperation(value = "用户注册", notes = "用户注册", httpMethod = "POST")
     @PostMapping("/regist")
     public FimJSONResult regist(@RequestBody UserBO userBO) {
 
