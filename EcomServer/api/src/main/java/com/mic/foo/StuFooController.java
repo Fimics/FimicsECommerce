@@ -1,6 +1,6 @@
 package com.mic.foo;
 
-import com.mic.service.StuService;
+import com.mic.service.foo.StuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

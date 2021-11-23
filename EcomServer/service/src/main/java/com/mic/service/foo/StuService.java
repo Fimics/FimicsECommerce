@@ -1,4 +1,4 @@
-package com.mic.service;
+package com.mic.service.foo;
 
 import com.mic.pojo.Stu;
 
@@ -11,4 +11,7 @@ public interface StuService {
     public void updateStu(int id);
 
     public void deleteStu(int id);
+
+    public void saveParent();
+    public void saveChildren();
 }
