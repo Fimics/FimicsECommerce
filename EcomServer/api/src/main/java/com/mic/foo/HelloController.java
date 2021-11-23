@@ -1,4 +1,4 @@
-package com.mic.controller;
+package com.mic.foo;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
