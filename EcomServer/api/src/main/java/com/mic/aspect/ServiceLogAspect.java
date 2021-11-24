@@ -1,6 +1,5 @@
 package com.mic.aspect;
 
-import org.aopalliance.intercept.Joinpoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -63,5 +62,6 @@ public class ServiceLogAspect {
 
         return result;
     }
+
 
 }
