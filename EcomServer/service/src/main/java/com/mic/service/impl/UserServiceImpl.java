@@ -31,6 +31,7 @@ public class UserServiceImpl implements UserService {
     public boolean queryUserIsExist(String username) {
         Example userExample = new Example(Users.class);
         Example.Criteria userCriteria = userExample.createCriteria();
+        // 这里的property是和pojo里对应的，而不是和数据库对应的
         userCriteria.andEqualTo("username",username);
         Users result = usersMapper.selectOneByExample(userExample);
         return result==null?false:true;
@@ -62,5 +63,16 @@ public class UserServiceImpl implements UserService {
 
         usersMapper.insert(user);
         return user;
+    }
+
+    @Transactional(propagation = Propagation.SUPPORTS)
+    @Override
+    public Users queryUserForLogin(String username, String password) {
+        Example userExample = new Example(Users.class);
+        Example.Criteria userCriteria = userExample.createCriteria();
+        userCriteria.andEqualTo("username",username);
+        userCriteria.andEqualTo("password",password);
+        Users result = usersMapper.selectOneByExample(userExample);
+        return result;
     }
 }

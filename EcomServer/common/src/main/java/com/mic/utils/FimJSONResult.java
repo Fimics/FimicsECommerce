@@ -86,9 +86,7 @@ public class FimJSONResult {
     }
     
     public FimJSONResult(Integer status, String msg, Object data, String ok) {
-        this.status = status;
-        this.msg = msg;
-        this.data = data;
+        this(status, msg, data);
         this.ok = ok;
     }
 
