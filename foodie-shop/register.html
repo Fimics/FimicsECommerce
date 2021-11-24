@@ -146,7 +146,7 @@
 					// 	console.log(this.username);
 					// },
 					registUser() {
-
+             
 						if (this.username == null || this.username == undefined || this.username =='') {
 							alert("用户名不能为空");
 							return;
@@ -164,13 +164,14 @@
 							return;
 						}
 
+
 						var userBO = {
 							username: this.username,
 							password: this.password,
 							confirmPassword: this.confirmPassword
 						};
 						// console.log(userBO);
-
+                       
 						var serverUrl = app.serverUrl;
 						var returnUrl = this.returnUrl;
 						// form提交
@@ -178,15 +179,20 @@
 						// console.log(axios.defaults);
 						axios.post(serverUrl + '/passport/regist', userBO)
 							.then(res => {
+								// debugger;
 								if (res.data.status == 200) {
 									var user = res.data;
 									// console.log(user);
 									// window.location.href = app.ctx + "/index.html";
 									// window.location.href = "index.html";
+									console.log("register 1")
 
 									if (returnUrl != null && returnUrl != undefined && returnUrl != '') {
+										console.log("register 2")
+										// window.location.href = "login.html";
 										window.location.href = returnUrl;
 									} else {
+										console.log("register 3")
 										window.location.href = "index.html";
 									}
 

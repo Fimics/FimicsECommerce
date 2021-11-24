@@ -126,14 +126,19 @@
 					// console.log(axios.defaults);
 					axios.post(serverUrl + '/passport/login', userBO)
 						.then(res => {
+							debugger;
 							if (res.data.status == 200) {
 								var user = res.data;
 								// console.log(user);
 
 								// window.location.href = app.ctx + "/index.html";
+								console.log("login 1")
 								if (returnUrl != null && returnUrl != undefined && returnUrl != '') {
+									console.log("login 2")
 									window.location.href = returnUrl;
+									// window.location.href = "index.html";
 								} else {
+									console.log("login 2")
 									window.location.href = "index.html";
 								}
 
