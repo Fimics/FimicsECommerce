@@ -1,6 +1,6 @@
 package com.mic.controller;
 
-import bo.UserBO;
+import com.mic.bo.UserBO;
 import com.mic.pojo.Users;
 import com.mic.service.UserService;
 import com.mic.utils.CookieUtils;

@@ -1,6 +1,6 @@
 package com.mic.service.impl;
 
-import bo.UserBO;
+import com.mic.bo.UserBO;
 import com.mic.enums.Sex;
 import com.mic.mapper.UsersMapper;
 import com.mic.pojo.Users;

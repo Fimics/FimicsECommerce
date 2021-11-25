@@ -1,4 +1,4 @@
-package bo;
+package com.mic.bo;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

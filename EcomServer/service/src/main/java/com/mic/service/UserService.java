@@ -1,6 +1,6 @@
 package com.mic.service;
 
-import bo.UserBO;
+import com.mic.bo.UserBO;
 import com.mic.pojo.Users;
 
 public interface UserService {
