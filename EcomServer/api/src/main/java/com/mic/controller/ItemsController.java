@@ -6,6 +6,7 @@ import com.mic.pojo.ItemsParam;
 import com.mic.pojo.ItemsSpec;
 import com.mic.service.ItemService;
 import com.mic.utils.FimJSONResult;
+import com.mic.vo.CommentLevelCountsVO;
 import com.mic.vo.ItemInfoVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -47,4 +48,20 @@ public class ItemsController {
 
         return FimJSONResult.ok(itemInfoVO);
     }
+
+    @ApiOperation(value = "查询商品评价等级", notes = "查询商品评价等级", httpMethod = "GET")
+    @GetMapping("/commentLevel")
+    public FimJSONResult commentLevel(
+            @ApiParam(name = "itemId", value = "商品id", required = true)
+            @RequestParam String itemId) {
+
+        if (StringUtils.isBlank(itemId)) {
+            return FimJSONResult.errorMsg(null);
+        }
+
+        CommentLevelCountsVO countsVO = itemService.queryCommentCounts(itemId);
+
+        return FimJSONResult.ok(countsVO);
+    }
+
 }
