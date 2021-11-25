@@ -3,12 +3,15 @@ org/n3r/idworker/strategy/DefaultRandomCodeStrategy.class
 org/n3r/idworker/strategy/DefaultWorkerIdStrategy$2.class
 com/mic/enums/CommentLevel.class
 org/n3r/idworker/utils/Ip.class
+com/mic/utils/MobileEmailUtils.class
 org/n3r/idworker/RandomCodeStrategy.class
 org/n3r/idworker/utils/Serializes.class
+com/mic/utils/DesensitizationUtil.class
 com/mic/enums/PayMethod.class
 com/mic/utils/CookieUtils.class
 com/mic/utils/DateUtil.class
 com/mic/enums/OrderStatusEnum.class
+com/mic/utils/PagedGridResult.class
 org/n3r/idworker/WorkerIdStrategy.class
 org/n3r/idworker/InvalidSystemClock.class
 com/mic/utils/MD5Utils.class
