@@ -1,4 +1,5 @@
 com/mic/vo/CommentLevelCountsVO.class
 com/mic/vo/ShopcartVO.class
+com/mic/bo/ShopcartBO.class
 com/mic/vo/ItemCommentVO.class
 com/mic/vo/SearchItemsVO.class
