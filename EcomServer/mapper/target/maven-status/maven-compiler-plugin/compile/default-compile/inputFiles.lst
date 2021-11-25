@@ -1,6 +1,7 @@
 /Users/li/code/java/FimicsECommerce/EcomServer/mapper/src/main/java/com/mic/mapper/UserAddressMapper.java
 /Users/li/code/java/FimicsECommerce/EcomServer/mapper/src/main/java/com/mic/gen/MyMapper.java
 /Users/li/code/java/FimicsECommerce/EcomServer/mapper/src/main/java/com/mic/mapper/StuMapper.java
+/Users/li/code/java/FimicsECommerce/EcomServer/mapper/src/main/java/com/mic/mapper/CategoryMapperCustom.java
 /Users/li/code/java/FimicsECommerce/EcomServer/mapper/src/main/java/com/mic/mapper/OrderStatusMapper.java
 /Users/li/code/java/FimicsECommerce/EcomServer/mapper/src/main/java/com/mic/mapper/UsersMapper.java
 /Users/li/code/java/FimicsECommerce/EcomServer/mapper/src/main/java/com/mic/mapper/OrderItemsMapper.java
