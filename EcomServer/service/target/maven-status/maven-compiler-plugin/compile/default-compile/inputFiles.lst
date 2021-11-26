@@ -7,10 +7,13 @@
 /Users/li/code/java/FimicsECommerce/EcomServer/service/src/main/java/com/mic/service/impl/CategoryServiceImpl.java
 /Users/li/code/java/FimicsECommerce/EcomServer/service/src/main/java/com/mic/service/foo/TestTransService.java
 /Users/li/code/java/FimicsECommerce/EcomServer/service/src/main/java/com/mic/service/foo/StuService.java
+/Users/li/code/java/FimicsECommerce/EcomServer/service/src/main/java/com/mic/service/center/MyOrdersService.java
 /Users/li/code/java/FimicsECommerce/EcomServer/service/src/main/java/com/mic/service/impl/OrderServiceImpl.java
 /Users/li/code/java/FimicsECommerce/EcomServer/service/src/main/java/com/mic/service/CarouselService.java
+/Users/li/code/java/FimicsECommerce/EcomServer/service/src/main/java/com/mic/service/center/impl/MyOrdersServiceImpl.java
 /Users/li/code/java/FimicsECommerce/EcomServer/service/src/main/java/com/mic/service/CategoryService.java
 /Users/li/code/java/FimicsECommerce/EcomServer/service/src/main/java/com/mic/service/AddressService.java
 /Users/li/code/java/FimicsECommerce/EcomServer/service/src/main/java/com/mic/service/ItemService.java
 /Users/li/code/java/FimicsECommerce/EcomServer/service/src/main/java/com/mic/service/impl/CarouselServiceImpl.java
 /Users/li/code/java/FimicsECommerce/EcomServer/service/src/main/java/com/mic/service/foo/impl/TestTransServiceImpl.java
+/Users/li/code/java/FimicsECommerce/EcomServer/service/src/main/java/com/mic/service/center/impl/BaseService.java

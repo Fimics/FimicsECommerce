@@ -69,7 +69,7 @@ public class OrdersController extends BaseController {
         MerchantOrdersVO merchantOrdersVO = orderVO.getMerchantOrdersVO();
         merchantOrdersVO.setReturnUrl(payReturnUrl);
 
-        // 为了方便测试购买，所以所有的支付金额都统一改为1分钱
+        // 以下代码为向支付中心发起调用为了方便测试购买，所以所有的支付金额都统一改为1分钱
         merchantOrdersVO.setAmount(1);
 
         HttpHeaders headers = new HttpHeaders();
