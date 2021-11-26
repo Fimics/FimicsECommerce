@@ -1,7 +1,5 @@
 package com.mic.vo;
 
-
-
 import com.mic.pojo.Items;
 import com.mic.pojo.ItemsImg;
 import com.mic.pojo.ItemsParam;

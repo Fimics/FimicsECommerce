@@ -1,3 +1,4 @@
 com/mic/controller/ShopcatController.class
+com/mic/controller/AddressController.class
 com/mic/controller/BaseController.class
 com/mic/controller/PassportController.class

@@ -1,8 +1,5 @@
 package com.mic.vo;
 
-/**
- * 三级分类
- */
 public class SubCategoryVO {
 
     private Integer subId;
