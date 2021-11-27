@@ -3,9 +3,13 @@ com/mic/service/foo/StuService.class
 com/mic/service/foo/TestTransService.class
 com/mic/service/center/impl/MyOrdersServiceImpl.class
 com/mic/service/center/impl/BaseService.class
+com/mic/service/center/impl/CenterUserServiceImpl.class
 com/mic/service/UserService.class
 com/mic/service/center/MyOrdersService.class
+com/mic/service/center/CenterUserService.class
+com/mic/service/center/MyCommentsService.class
 com/mic/service/foo/impl/StuServiceImpl.class
 com/mic/service/impl/UserServiceImpl.class
 com/mic/service/impl/AddressServiceImpl.class
+com/mic/service/center/impl/MyCommentsServiceImpl.class
 com/mic/service/AddressService.class
