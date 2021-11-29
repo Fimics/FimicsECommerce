@@ -57,6 +57,7 @@ public class CenterUserController extends BaseController {
         // 定义头像保存的地址
 //        String fileSpace = IMAGE_USER_FACE_LOCATION;
         String fileSpace = fileUpload.getImageUserFaceLocation();
+        System.out.println("fileSpace-->"+fileSpace);
         // 在路径上为每一个用户增加一个userid，用于区分不同用户上传
         String uploadPathPrefix = File.separator + userId;
 
