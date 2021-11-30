@@ -218,7 +218,7 @@
 					uploadFace(e) {
 						// let $target = e.target || e.srcElement;
 						// let file = $target.files[0];
-					
+
 						let f = document.getElementById('userFace').files[0];
 						// console.log(f);
 						let multiForm = new FormData() ; 		//创建一个form对象
@@ -240,6 +240,7 @@
 									}
 								})
 							.then(res => {
+								debugger;
 								if (res.data.status == 200) {
 									// var userInfoMore = res.data.data;
 									// console.log(userInfoMore);
@@ -335,7 +336,7 @@
 						var serverUrl = app.serverUrl;
 						axios.defaults.withCredentials = true;
 						axios.get(
-								serverUrl + '/center/userInfo?userId=' + userInfo.id, 
+								serverUrl + '/center/userInfo?userId=' + userInfo.id,
 								{
 									headers: {
 										'headerUserId': userInfo.id,
