@@ -3,6 +3,7 @@
 /Users/li/code/java/FimicsECommerce/EcomServer/api/src/main/java/com/mic/controller/OrdersController.java
 /Users/li/code/java/FimicsECommerce/EcomServer/api/src/main/java/com/mic/config/OrderJob.java
 /Users/li/code/java/FimicsECommerce/EcomServer/api/src/main/java/com/mic/resource/FileUpload.java
+/Users/li/code/java/FimicsECommerce/EcomServer/api/src/main/java/com/mic/WarStarterApplication.java
 /Users/li/code/java/FimicsECommerce/EcomServer/api/src/main/java/com/mic/controller/center/CenterUserController.java
 /Users/li/code/java/FimicsECommerce/EcomServer/api/src/main/java/com/mic/controller/BaseController.java
 /Users/li/code/java/FimicsECommerce/EcomServer/api/src/main/java/com/mic/controller/center/CenterController.java

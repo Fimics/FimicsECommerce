@@ -5,6 +5,7 @@ com/mic/enums/CommentLevel.class
 org/n3r/idworker/utils/Ip.class
 com/mic/utils/MobileEmailUtils.class
 org/n3r/idworker/RandomCodeStrategy.class
+com/mic/utils/FimJSONResult.class
 org/n3r/idworker/utils/Serializes.class
 com/mic/utils/DesensitizationUtil.class
 com/mic/enums/PayMethod.class
@@ -18,6 +19,7 @@ com/mic/utils/MD5Utils.class
 org/n3r/idworker/Code.class
 org/n3r/idworker/utils/IPv4Utils.class
 org/n3r/idworker/strategy/DefaultRandomCodeStrategy$1.class
+com/mic/enums/YesOrNo.class
 org/n3r/idworker/IdWorker.class
 org/n3r/idworker/Test.class
 org/n3r/idworker/utils/HttpReq.class
